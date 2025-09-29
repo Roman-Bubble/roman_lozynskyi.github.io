@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Financial SaaS — 100k+ active users",
+    "description": "RBAC privacy, 20+ APIs, Stripe Billing, audit logs, imports/exports, analytics dashboards."
+  },
+  {
+    "title": "HookWave — AI Trend & Content Planner",
+    "description": "OpenAI agents + n8n for trend research and content calendar generation with guardrails."
+  },
+  {
+    "title": "Bookstore — Stripe + Reviews",
+    "description": "Checkout & subscriptions, reviews, moderation and transparent ratings."
+  }
+]
