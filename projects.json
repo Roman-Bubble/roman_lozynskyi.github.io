@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Financial SaaS — 100k+ active users",
+    "description": "RBAC privacy, 20+ APIs, Stripe Billing, audit logs, imports/exports, analytics dashboards.",
+    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop",
+    "tags": [
+      "Bubble.io",
+      "Stripe",
+      "RBAC",
+      "APIs",
+      "GA4"
+    ],
+    "badge": "Scale",
+    "link": "",
+    "case": ""
+  },
+  {
+    "title": "HookWave — AI Trend & Content Planner",
+    "description": "OpenAI agents + n8n for trend research and content calendar generation with guardrails.",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1200&auto=format&fit=crop",
+    "tags": [
+      "OpenAI",
+      "n8n",
+      "Automations"
+    ],
+    "badge": "AI",
+    "link": "",
+    "case": ""
+  },
+  {
+    "title": "Bookstore — Stripe + Reviews",
+    "description": "Checkout & subscriptions, reviews, moderation and transparent ratings.",
+    "image": "https://images.unsplash.com/photo-1514894780887-121968d00567?q=80&w=1200&auto=format&fit=crop",
+    "tags": [
+      "Stripe",
+      "Reviews",
+      "Workflow"
+    ],
+    "badge": "E-commerce",
+    "link": "",
+    "case": ""
+  }
+]
