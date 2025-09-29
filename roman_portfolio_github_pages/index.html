@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Роман — Bubble.io & AI Automations</title>
+  <meta name="description" content="Портфоліо: Bubble.io розробка, AI-автоматизації, Stripe, n8n, Supabase. 5+ років досвіду.">
+  <meta property="og:title" content="Роман — Bubble.io & AI Automations">
+  <meta property="og:description" content="Будую швидкі та надійні веб‑апки на Bubble.io. Інтеграції Stripe, AI‑агенти, n8n, Supabase.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="https://example.com/assets/cover.png">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- GA4: заміни G-XXXX на свій ID або видали блок -->
+  <script>
+    // window.dataLayer = window.dataLayer || [];
+    // function gtag(){dataLayer.push(arguments);}
+    // gtag('js', new Date());
+    // gtag('config', 'G-XXXXXXXX', { anonymize_ip: true });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Роман Лозинський",
+    "jobTitle": "No-code/Bubble.io Developer",
+    "url": "https://example.com",
+    "sameAs": ["https://www.linkedin.com/in/roman-lozynskyi-7459a6261","https://www.upwork.com/freelancers/lozynskyiroman"],
+    "knowsAbout": ["Bubble.io","n8n","AI agents","Stripe","Supabase","API integrations"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#top">Роман</a>
+      <div class="nav-links">
+        <a href="#work">Роботи</a>
+        <a href="#services">Послуги</a>
+        <a href="#about">Про мене</a>
+        <a href="#contact" class="btn">Звʼязатись</a>
+      </div>
+    </nav>
+    <section class="hero container" id="top">
+      <h1>Bubble.io & AI‑автоматизації<br><span class="accent">для SaaS, FinTech та CRM</span></h1>
+      <p>5+ років досвіду. Від MVP до продакшену: 100k+ користувачів, 20+ API‑інтеграцій, Stripe, RBAC, аудити, вебхуки, n8n.</p>
+      <div class="cta-row">
+        <a href="#work" class="btn">Дивитися роботи</a>
+        <a href="#contact" class="btn ghost">Обговорити проєкт</a>
+      </div>
+      <ul class="badges">
+        <li>Bubble.io</li><li>Stripe</li><li>n8n</li><li>Supabase</li><li>OpenAI</li>
+      </ul>
+    </section>
+  </header>
+
+  <main>
+    <section class="container" id="work">
+      <h2>Обрані проєкти</h2>
+      <div class="grid cards" id="projects"></div>
+      <p class="hint">Редагуй <code>projects.json</code>, щоб оновити цей блок.</p>
+    </section>
+
+    <section class="container" id="services">
+      <h2>Чим допоможу</h2>
+      <div class="grid features">
+        <article>
+          <h3>Bubble‑розробка</h3>
+          <p>MVP/прод: дизайн БД, складні воркфлови, продуктивність, респонсив.</p>
+        </article>
+        <article>
+          <h3>Платежі та монетизація</h3>
+          <p>Stripe (Checkout, Billing), плани, купони, вебхуки, події для аналітики.</p>
+        </article>
+        <article>
+          <h3>AI & Автоматизації</h3>
+          <p>OpenAI, агенти, n8n/Make, обробка файлів, валідації, RBAC.</p>
+        </article>
+        <article>
+          <h3>SSO та безпека</h3>
+          <p>Auth0/WorkOS, Google/Microsoft, SAML, аудит‑логи, rate‑limits.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h2>Про мене</h2>
+      <p>Я — no‑code/low‑code інженер, який будує реальні продакшен‑системи на Bubble.io. Люблю чисті дані, передбачувані процеси й вимірюваний результат. Працюю прозоро: демо‑стенди, канбан, регулярні апдейти.</p>
+    </section>
+
+    <section class="container contact" id="contact">
+      <h2>Контакти</h2>
+      <div class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:lozunskir@gmail.com">lozunskir@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/roman-lozynskyi-7459a6261" target="_blank">linkedin.com/in/roman‑lozynskyi‑7459a6261</a></p>
+        <p><strong>Upwork:</strong> <a href="https://www.upwork.com/freelancers/lozynskyiroman" target="_blank">upwork.com/freelancers/lozynskyiroman</a></p>
+        <p class="small">Форма нижче надсилає лист на твій email через Formspree (без бекенда). Замінити <code>YOUR_FORM_ID</code> у <code>script.js</code>.</p>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Ваше імʼя" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Коротко про задачу" rows="4" required></textarea>
+        <button type="submit" class="btn">Надіслати</button>
+        <p id="formStatus" class="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Роман. Побудовано як статичний сайт для GitHub Pages.</p>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
